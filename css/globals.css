@@ -5,5 +5,7 @@
 @layer base {
   body {
     @apply bg-black;
+    @apply text-green;
+    @apply font-mono;
   }
 }
