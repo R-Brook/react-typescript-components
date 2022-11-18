@@ -18,6 +18,10 @@ module.exports = {
       green: "#7CFC00",
       white: "#FFFFFF",
     },
+    borderColor: (theme) => ({
+      ...theme("colors"),
+      default: theme("colors.green", "currentColor"),
+    }),
     fontFamily: {
       mono: ['"Courier New"', "monospace"],
     },
