@@ -19,10 +19,7 @@ export const TextInput: FC<InputProps> = ({
 }) => {
   return (
     <div className="flex flex-col">
-      <label
-        className={cx(className, "text-green uppercase mb-1 ")}
-        htmlFor={id}
-      >
+      <label className={cx(className, "text-green mb-1.5")} htmlFor={id}>
         {label} {required && "*"}
       </label>
       <input

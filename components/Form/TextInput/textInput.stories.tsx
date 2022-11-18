@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react"
 import { TextInput } from "."
 
 export default {
-  title: "UI Elements/Form/Text Input",
+  title: "UI Elements/Form/Input",
   component: TextInput,
   argTypes: {
     type: {
@@ -28,4 +28,4 @@ const Template: ComponentStory<typeof TextInput> = (args) => (
   <TextInput {...args}></TextInput>
 )
 
-export const SingleButton = Template.bind({})
+export const Input = Template.bind({})
