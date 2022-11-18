@@ -19,7 +19,11 @@ module.exports = {
       white: "#FFFFFF",
     },
     fontFamily: {
-      mono: ['"Courier New"', "monospace"],
+      mono: ["IBM Plex Mono Regular", "serif"],
+      "mono-bold": ["IBM Plex Mono Bold", "serif"],
+      "mono-semi-bold": ["IBM Plex Mono Semi Bold", "serif"],
+      "mono-thin": ["IBM Plex Mono Thin", "serif"],
+      "mono-light": ["IBM Plex Mono Light", "serif"],
     },
     fontWeight: {
       normal: "400",
