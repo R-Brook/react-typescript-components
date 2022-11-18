@@ -12,11 +12,11 @@ Object.defineProperty(NextImage, "default", {
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   backgrounds: {
-    default: "desktop",
+    default: "default",
     values: [
       {
-        name: "desktop",
-        value: "#008080",
+        name: "default",
+        value: "#000000",
       },
     ],
   },
