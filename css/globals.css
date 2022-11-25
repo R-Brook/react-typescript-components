@@ -1,3 +1,4 @@
+@import "base/reset.css";
 @import "base/fonts.css";
 @tailwind base;
 @tailwind components;
