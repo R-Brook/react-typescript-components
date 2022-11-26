@@ -3,10 +3,9 @@ import type { NextPage } from "next"
 import Head from "next/head"
 import { Container } from "../components/container"
 import { TextInput } from "components/Form/TextInput"
+import { Button } from "components/Form/Buttons"
 
 const Home: NextPage = () => {
-  const [notepadOpen, setNotepadOpen] = React.useState(false)
-
   return (
     <>
       <Head>
@@ -32,6 +31,12 @@ const Home: NextPage = () => {
         </div>
 
         <TextInput label="input label" id="test" required />
+        <div className=" mt-8 ">
+          <Button type="primary">foo</Button>
+        </div>
+        <div className=" mt-8 ">
+          <Button type="secondary">foo</Button>
+        </div>
       </Container>
     </>
   )
